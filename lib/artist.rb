@@ -1,5 +1,6 @@
 class Artist (name)
 
+   @@name = []
 
   def initialize (name)
     @name = name
