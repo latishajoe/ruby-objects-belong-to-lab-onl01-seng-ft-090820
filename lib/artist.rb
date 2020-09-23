@@ -1,15 +1,5 @@
-class Artist (name)
-
-   @@name = []
-
-  def initialize (name)
-    @name = name
-  end
-
-  def name(name)
-    @name = name
-  end
-
-
-
+class Artist
+  attr_accessor :name
 end
+
+artist = Artist.new
